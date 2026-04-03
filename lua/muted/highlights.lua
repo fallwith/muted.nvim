@@ -335,8 +335,8 @@ function M.get(p)
 		CmpItemKindTypeParameter   = { fg = p.yellow },
 
 		-- ── neo-tree / nvim-tree ─────────────────────────────────────────
-		NeoTreeNormal              = { fg = p.fg_muted,   bg = p.bg },
-		NeoTreeNormalNC            = { fg = p.fg_muted,   bg = p.bg },
+		NeoTreeNormal              = { fg = p.fg,   bg = p.bg },
+		NeoTreeNormalNC            = { fg = p.fg,   bg = p.bg },
 		NeoTreeDirectoryName       = { fg = p.sage },
 		NeoTreeDirectoryIcon       = { fg = p.sage },
 		NeoTreeRootName            = { fg = p.fg_bright,  bold = true },
