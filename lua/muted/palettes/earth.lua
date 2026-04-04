@@ -1,4 +1,4 @@
--- lua/muted/palettes/default.lua
+-- lua/muted/palettes/earth.lua
 -- Single source of truth for the muted.nvim colour palette.
 
 return {

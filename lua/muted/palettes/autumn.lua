@@ -1,4 +1,4 @@
--- lua/muted/palettes/ember.lua
+-- lua/muted/palettes/autumn.lua
 -- Fiery/red-toned variant of muted.nvim.
 -- Same hierarchy principles, shifted into the rust/ember spectrum.
 return {
