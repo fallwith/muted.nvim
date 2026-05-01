@@ -30,7 +30,7 @@ return {
 	fg_linenr = "#d6d2c8",
 	fg_linenr2 = "#888888",
 	fg_winsep = "#888888",
-	fg_nontext = "#777777",
+	fg_nontext = "#302424",
 	fg_special = "#6a5f5f",
 	-- Syntax — shifted into rust/ember/red spectrum
 	yellow = "#D4A96A", -- Type       — warm amber instead of yellow-green
@@ -48,4 +48,7 @@ return {
 	-- Substitute
 	sub_fg = "#1A1414",
 	sub_bg = "#B89070",
+
+    -- Test Color
+	test_color = "#777777",
 }

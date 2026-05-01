@@ -7,23 +7,23 @@ Covers editor chrome, Treesitter, LSP semantic tokens, diagnostics, diffs, and a
 
 ## Plugin support
 
-| Plugin | Covered |
-|---|---|
-| Treesitter (`@` captures) | ✅ |
-| LSP semantic tokens (`@lsp.*`) | ✅ |
-| Diagnostics & LSP references | ✅ |
-| Diff / Git | ✅ |
-| gitsigns.nvim | ✅ |
-| Telescope | ✅ |
-| nvim-cmp | ✅ |
-| neo-tree / nvim-tree | ✅ |
-| which-key | ✅ |
-| indent-blankline (ibl) | ✅ |
-| mini.nvim (statusline, cursorword, pick) | ✅ |
-| nvim-notify | ✅ |
-| Noice | ✅ |
-| Lazy.nvim | ✅ |
-| Mason | ✅ |
+| Plugin                                   | Covered |
+| ---------------------------------------- | ------- |
+| Treesitter (`@` captures)                | ✅      |
+| LSP semantic tokens (`@lsp.*`)           | ✅      |
+| Diagnostics & LSP references             | ✅      |
+| Diff / Git                               | ✅      |
+| gitsigns.nvim                            | ✅      |
+| Telescope                                | ✅      |
+| nvim-cmp                                 | ✅      |
+| neo-tree / nvim-tree                     | ✅      |
+| which-key                                | ✅      |
+| indent-blankline (ibl)                   | ✅      |
+| mini.nvim (statusline, cursorword, pick) | ✅      |
+| nvim-notify                              | ✅      |
+| Noice                                    | ✅      |
+| Lazy.nvim                                | ✅      |
+| Mason                                    | ✅      |
 
 ---
 
@@ -81,7 +81,7 @@ Add this to your lazy.nvim plugin spec:
 
 ```lua
 {
-  "yourname/muted.nvim",
+  "pisgahk/muted.nvim",
   lazy = false,    -- load at startup, not on demand
   priority = 1000, -- load before all other plugins
   config = function()
@@ -104,7 +104,7 @@ If you haven't published it to GitHub yet and want to load it from a **local pat
 },
 ```
 
-Then run `:Lazy sync` (or just restart Neovim) and the theme will be active.
+Then run `:Lazy sync` (or just restart Neovim) and the theme will be active OR the `:so` command.
 
 ---
 
@@ -130,5 +130,6 @@ muted.nvim/
         ├── palette.lua    ← All colour values in one place
         └── highlights.lua ← All highlight group definitions
 
-To customise colours, edit `lua/muted/palette.lua`.  
+To customise colours, edit `lua/muted/palette.lua`.
 To adjust or add highlight groups, edit `lua/muted/highlights.lua`.
+```

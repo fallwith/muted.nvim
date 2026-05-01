@@ -31,7 +31,7 @@ return {
 	fg_linenr = "#d6d2c8",
 	fg_linenr2 = "#888888",
 	fg_winsep = "#888888",
-	fg_nontext = "#777777",
+	fg_nontext = "#302020",
 	fg_special = "#6a5555",
 	-- Syntax — red spectrum
 	-- Tier 1: types (rose-red), functions (deep crimson-pink)
@@ -52,4 +52,8 @@ return {
 	-- Substitute
 	sub_fg = "#1A1010",
 	sub_bg = "#A06868",
+
+    -- Test Color
+	test_color = "#777777",
+
 }

@@ -72,7 +72,7 @@ function M.get(p)
 		SpellRare = { sp = p.purple, undercurl = true },
 
 		Directory = { fg = p.sage }, -- Responsible for the snacks.explorer
-        NonText = { fg = p.fg_nontext },
+        NonText = { fg = p.test_color },
 
 		SpecialKey = { fg = p.fg_nontext },
 		Whitespace = { fg = p.fg_nontext },

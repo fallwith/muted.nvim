@@ -31,7 +31,7 @@ return {
 	fg_linenr = "#c8d0d8",
 	fg_linenr2 = "#888888",
 	fg_winsep = "#888888",
-	fg_nontext = "#555555",
+	fg_nontext = "#242a30",
 	fg_special = "#5a6870",
 	-- Syntax — cool blue/slate/teal spectrum
 	-- Tier 1: types (steel-blue), functions (slate-teal)
@@ -52,4 +52,7 @@ return {
 	-- Substitute
 	sub_fg = "#0e1418",
 	sub_bg = "#7a9fa0",
+
+	-- Test Color
+	test_color = "#555555",
 }

@@ -101,7 +101,7 @@ return {
 	fg_linenr = "#707070",
 	fg_linenr2 = "#484848",
 	fg_winsep = "#383838",
-	fg_nontext = "#777777",
+	fg_nontext = "#303030",
 	fg_special = "#585858",
 	-- Syntax — pure luminance, zero hue
 	-- Tier 1: types and functions get the brightest non-fg tones
@@ -122,4 +122,8 @@ return {
 	-- Substitute
 	sub_fg = "#202020",
 	sub_bg = "#c0c0c0",
+
+    -- Test Color
+	test_color = "#777777",
+
 }
