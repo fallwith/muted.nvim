@@ -64,7 +64,7 @@ function M.get(p)
 		MoreMsg = { fg = p.sage, bold = true },
 		Question = { fg = p.tan },
 		ErrorMsg = { fg = p.error_red, bold = true },
-		WarningMsg = { fg = p.gold },
+		WarningMsg = { fg = p.yellow },
 
 		SpellBad = { sp = p.error_red, undercurl = true },
 		SpellCap = { sp = p.steel, undercurl = true },
@@ -72,7 +72,7 @@ function M.get(p)
 		SpellRare = { sp = p.purple, undercurl = true },
 
 		Directory = { fg = p.sage }, -- Responsible for the snacks.explorer
-        NonText = { fg = p.test_color },
+		NonText = { fg = p.test_color },
 
 		SpecialKey = { fg = p.fg_nontext },
 		Whitespace = { fg = p.fg_nontext },
@@ -235,13 +235,13 @@ function M.get(p)
 
 		-- ── Diagnostics ──────────────────────────────────────────────────
 		DiagnosticError = { fg = p.error_red },
-		DiagnosticWarn = { fg = p.gold },
+		DiagnosticWarn = { fg = p.yellow },
 		DiagnosticInfo = { fg = p.steel },
 		DiagnosticHint = { fg = p.sage },
 		DiagnosticOk = { fg = p.olive },
 
 		DiagnosticUnderlineError = { sp = p.error_red, undercurl = true },
-		DiagnosticUnderlineWarn = { sp = p.gold, undercurl = true },
+		DiagnosticUnderlineWarn = { sp = p.yellow, undercurl = true },
 		DiagnosticUnderlineInfo = { sp = p.steel, undercurl = true },
 		DiagnosticUnderlineHint = { sp = p.sage, undercurl = true },
 
